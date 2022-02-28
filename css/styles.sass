@@ -1,0 +1,304 @@
+@import url('https://fonts.googleapis.com/css2?family=Alatsi&family=Nunito+Sans:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800&display=swap');
+
+$logo-font: 'Alatsi', sans-serif
+$body-font: 'Nunito Sans', sans-serif
+
+html
+    width: 100%
+    -webkit-text-size-adjust: auto
+
+body
+    background-color: white
+    font-family: $body-font
+    padding: 0
+    margin: 0
+    width: 100%
+
+#header
+    padding: 1rem
+    padding-right: 2rem
+    width: 97%
+    display: inline
+
+.large
+    font-size: 3em
+
+.medium
+    font-size: 1.5rem
+    -webkit-text-stroke-width: .5px
+
+#logo
+    font-family: $logo-font
+    color: black
+    -webkit-text-fill-color: white /* Will override color if supported */
+    -webkit-text-stroke-width: 1px
+    -webkit-text-stroke-color: black
+    text-decoration: none
+    transition: all .3s ease
+
+#logo:hover
+    color: black
+    -webkit-text-stroke-color: none
+    -webkit-text-fill-color: black
+    text-decoration: none
+    transition: all .5s ease
+
+.header-link
+    text-decoration: none
+    color: black
+    padding: 1rem
+
+.header-link:hover
+    text-decoration: underline
+
+
+#landing
+    padding: 1rem 1rem 0 1rem
+    display: inline-block
+    position: relative
+    width: 100%
+    height: 90vh
+    z-index: 100
+
+#landing img
+    margin-left: 1vmin
+    height: 100vh
+    float: left
+    filter: drop-shadow(0rem 0.2rem 7rem #5cb8f5)
+    z-index: 100
+    display: inline
+    position: absolute
+
+#landing-text
+    float: right
+    font-size: 3em
+    max-width: 60vw
+    margin-left: auto
+    margin-right: 5%
+    text-align: left
+    align-self: center
+    margin-bottom: 18rem
+    z-index: 300
+    display: inline-block
+    position: relative
+    background: rgba( 0, 193, 224, 0.45 )
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 )
+    border-radius: 1rem
+    padding: 2rem
+    backdrop-filter: blur( 8px )
+    -webkit-backdrop-filter: blur( 8px )
+    border: 1px solid rgba( 255, 255, 255, 0.18 )
+    color: white
+
+#landing-text h1
+    padding: 1vmin
+    margin: 0
+    color: white
+    padding: 1vmax
+    font-size: 2em
+
+#landing-text a 
+    text-decoration: none
+    color: white
+    padding: .5vmax 1vmax
+    margin-top: 1vmax
+    border-radius: .5em
+    transition: all .2s ease
+    display: inline-block
+
+#landing-text-designer
+    background: rgba( 143, 255, 155, 0.4 )
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 )
+    backdrop-filter: blur( 12px )
+    -webkit-backdrop-filter: blur( 12px )
+    border-radius: 10px
+    border: 1px solid rgba( 255, 255, 255, 0.18 )
+
+#landing-text-photographer
+    background: rgba( 102, 88, 189, 0.4 )
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 )
+    backdrop-filter: blur( 12px )
+    -webkit-backdrop-filter: blur( 12px )
+    border-radius: 10px
+    border: 3px solid rgba( 255, 255, 255, 0.18 )
+
+#landing-text-photographer:hover
+    background: rgba( 102, 88, 189, 0.7 )
+    box-shadow: 0 10px 32px 0 rgba(102, 88, 189, 1)
+    transition: all .25s ease
+
+#landing-text-engineer
+    background: rgba( 66, 183, 82, 0.4 )
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 )
+    backdrop-filter: blur( 12px )
+    -webkit-backdrop-filter: blur( 12px )
+    border-radius: 10px
+    border: 3px solid rgba( 255, 255, 255, 0.18 )
+
+#landing-text-engineer:hover
+    background: rgba( 66, 183, 82, .8)
+    box-shadow: 0 10px 32px 0 rgba( 66, 183, 82, 1)
+    transition: all .25s ease
+
+#landing-text-enginer:active
+    transform: translateY(2vh)
+
+#about-me
+    background-color: #00C1E0
+    margin-top: -1em
+    position: relative
+    z-index: 300
+    max-width: 100%
+    clip-path: url("img/BlueBackground.svg")
+    border-top-right-radius: 2rem
+    
+#about-me-header
+    text-align: right
+    padding: 2rem 6rem 1rem 0
+    margin: 0
+    color: white
+    font-size: 3em
+
+#about-me-text
+    padding: 4vmin
+    max-width: 100%
+    font-size: 1.5em
+    margin: 0
+
+#photographer-side-navigation
+    position: fixed
+    left: 2vw
+    top: 50%
+    list-style: none
+    color: rgba(255, 255, 255, .35)
+    background-color: rgba(0, 0, 0, .35)
+    border-radius: .5rem
+    padding: 1vmax
+    transition: all .25s ease
+    z-index: 300
+    background: rgba( 255, 255, 255, 0.4 )
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 )
+    backdrop-filter: blur( 10px )
+    -webkit-backdrop-filter: blur( 10px )
+    border-radius: 10px
+    border: 1px solid rgba( 255, 255, 255, 0.18 )
+
+#photographer-side-navigation ul
+    list-style: none
+    padding: 0
+    margin: 0
+
+#photographer-side-navigation li
+    padding: 1vmax
+
+#photographer-side-navigation li a
+    color: rgba(0,0,0,1)
+    text-decoration: none
+
+#photographer-side-navigation li a:hover
+    color: #016a9b
+    cursor: pointer
+    transition: color .25s ease
+
+.float-right
+    float: right
+
+.align-right
+    text-align: right
+
+.carousel
+    display: flex
+    overflow-x: scroll
+    scroll-behavior: smooth
+    overflow-y: hidden
+    max-height: 90vh
+    padding: 2vmin
+    background: rgba( 0, 193, 224, 0.35 )
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 )
+    backdrop-filter: blur( 4.5px )
+    -webkit-backdrop-filter: blur( 4.5px )
+    border-radius: 10px
+    border: 1px solid rgba( 255, 255, 255, 0.18 )
+    z-index: 100
+
+
+.carousel img
+    max-width: 90vmin
+    max-height: 90vh
+    width: auto
+    height: auto
+    display: block
+    padding: 0 .25rem
+    border-radius: 10px
+
+
+.center
+    text-align: center
+
+.large
+    font-size: 3rem
+
+.engineer
+    font-size: 2rem
+
+.engineer h2
+    padding-bottom: 0
+    margin-bottom: 0
+
+.engineer h3 
+    margin-top: .5vmin
+
+
+.engineer-segment img
+    border-radius: .5rem
+    height: auto
+    width: 75vmin
+    max-width: 80vw
+
+.engineer video
+    max-width: 100vw
+    height: auto
+    width: 80vmax
+    border-radius: .5rem
+
+.engineer-segment
+    padding: 0 1vmin
+    max-width: 100%
+
+#recent-work
+    z-index: 300
+    display: inline-flex
+    background-color: #fdc48e
+    width: 100%
+    padding: 1em
+
+.recent-work-option
+    display: inline-block
+    position: relative
+    cursor: pointer
+    max-width: 50%
+    z-index: 300
+
+.recent-work-option img
+    width: 45vw
+    z-index: 300
+    display: block
+
+.recent-work-text
+    position: absolute
+    z-index: 400
+    top: 0
+    left: 0
+    padding: 50%
+    text-align: center
+    width: 100%
+    height: 100%
+    color: rgba(0, 0, 0, 0)
+    background-color: rgba(255, 255, 255, 0)
+    font-size: 3em
+    transition: all .25s ease
+
+.recent-work-text:hover
+    color: rgba(0, 0, 0, 1)
+    background-color: rgba(255, 255, 255, .5)
+    transition: all .25s ease

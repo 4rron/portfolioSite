@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+    <link rel="manifest" href="favicon/site.webmanifest">
+    <title>Engineer</title>
+</head>
+<body class="engineer">
+  <div id="header">
+    <a href="index.html" id="logo" class="large">AB</a>
+    <div class="float-right">
+        <a href="contact.html" class="header-link medium">Contact</a>
+    </div>
+  </div> <!-- header -->
+  <div class="engineer-segment" id="projects">
+    <h2>Projects</h2>
+    <ul>
+        <li><a href="#valkerie">Valkerie (Cybersecurity Dashboard)</a></li>
+        <li><a href="#grass">Grass Material (UE4 Material/Shaders)</a></li>
+        <li><a href="#vrfish">Hand Fishing (VR Proof of Concept)</a></li>
+        <li><a href="#ball">Bouncing Ball (3D Frame by Frame Animation)</a></li>
+        <li><a href="#dart">Dart (3D Modeling Animation)</a></li>
+        <li><a href="#town">Town (Web Development)</a></li>
+        <li><a href="#audio">Child's Play Themes/Sensory Percussion Track (Sound Design)</a></li>
+    </ul>
+  </div> <!-- end projects -->
+  <hr>
+  <div class="engineer-segment" id="valkerie">
+    <img src="img/valkerie.png">
+    <h2>Valkerie</h2>
+    <h3>UI/UX Development</h3>
+    <h4>Description</h4>
+    <p>This was the main dashboard mockup for a new cybersecurity tool owned by SolonTek. The goal was to create a single window for the end user to monitor their entire system network. This dashboard went through a multitude of iterations to create a simple to navigate dashboard that still provided the end user with all of the data they needed to see. </p>
+    <h4>Tools Used</h4>
+    <ul>
+        <li>Figma</li>
+        <li>Pixelmator</li>
+        <li>Vectornator</li>
+        <li>MacSVG</li>
+        <li>Elm</li>
+        <li>SVG2ELM</li>
+    </ul>
+    <h4>Skills to Highlight</h4>
+    <p>This project is a culmination of all UI/UX experience I have gained from my game related degree to showcase how it would apply to a real-world application meant for productivity, not entertainment.</p>
+  </div><!-- end valkerie -->
+  <div class="engineer-segment" id="grass">
+    <hr>
+    <img src="src/floofGrassCropped.gif">
+    <h2>Grass Material</h2>
+    <h3>UE4 Material/Shader Development</h3>
+    <p>The main purpose of this project was to create the most efficient grass possible. This fascination sparked inside of me the first time I played The Legend of Zelda: Breath of the Wild. The grass in this game was so full yet so well optimized that the player could react with it and the Nintendo Switch, even though limited in processing power, would not stutter. There was a progression in how I created the grass (from individual meshes for each blade of grass, to a two-plane setup, to a single-plane setup). This matched with coding interactions in the material blueprint itself instead of creating physics-based interactions helps optimize the grass to be as efficient yet beautiful as possible.</p>
+    <video controls>
+      <source src="src/grassWalk.mp4" type="video/mp4">
+      Your browser does not support this type of video.
+    </video>
+    <h4>Description</h4>
+    <p>This grass was a culmination of studies into how to build grass foliage based off a two-plane mesh and hand-drawn texture. All interactions with the player are done through the object's shader itself, not through game programming.</p>
+    <h4>Tools Used</h4>
+    <ul>
+      <li>Unreal Engine 4</li>
+      <li>Adobe Photoshop</li>
+    </ul>
+    <h4>Skills to Highlight</h4>
+    <p>This grass shows off my in depth understanding of shader programming and development along with my passion of stylized graphics.</p>
+    <video width="720" controls>
+      <source src="src/grassWave.mp4" type="video/mp4">
+      Your browser does not support this type of video.
+    </video>
+    <h3>Refinement Plan</h3>
+    <h4>Proposed Changes</h4>
+    <p>The main change I wish to make to this material is to figure out how to properly control the shader so that the grass actually moves entirely away from the player instead of stabbing into the player's legs. There are a couple other optimizations that need to be done to make the material a bit easier to light, but actual interactivity is my main focus, at least during this study of it.</p>
+    <h4>Skills Showcase</h4>
+    <ul>
+      <li>Unreal Engine 4 Blueprints</li>
+      <li>Material Blueprints</li>
+      <li>Adobe Photoshop</li>
+      <li>Shaders</li>
+    </ul>
+  </div> <!-- end grass -->
+  <hr>
+  <div class="engineer-segment" id="vrfish">
+    <img src="src/vrfish.png">
+    <h2>Hand Fishing</h2>
+    <h3>VR Proof of Concept</h3>
+    <h4>Description</h4>
+    <p>This project was a 24 hour mockup for a VR proof of concept. The purpose of this was to showcase an arcade hand fishing mechanic that would be used in a game full of power-ups and modifiers.</p>
+    <h4>Tools Used</h4>
+    <ul>
+      <li>Unreal Engine 4 Blueprints</li>
+      <li>Oculus SDK</li>
+    </ul>
+    <h4>Skills to Highlight</h4>
+    <p>This 24 hour challenge greatly challenged me in terms of scope management and requirement analysis. It was important to stick with what was needed for the proof of concept to be successful.</p>
+    <h3>Refinement Plan</h3>
+    <h4>Proposed Changes</h4>
+    <p>Being that this was a proof of concept, there is plenty that could be improved upon. Improving the control setup to be modular would be my highest priority, as that would allow for an easy implementation and modification with the arcade style game that this was designed for.</p>
+  </div> <!-- end vrfish -->
+  <hr>
+  <div class="engineer-segment" id="ball">
+    <video controls>
+      <source src="src/BouncingBall.mov" type="video/mp4">
+      Your browser does not support this embedded video.
+    </video>
+    <h2>Bouncing Ball</h2>
+    <h3>3D Frame by Frame Animation</h3>
+    <h4>Description</h4>
+    <p>This project was a study into frame-by-frame animation using Autodesk Maya</p>
+    <h4>Tools Used</h4>
+    <p>Autodesk Maya</p>
+    <h4>Skills to Highlight</h4>
+    <p>This project is used to highlight understanding of portraying momentum and energy in an animation.</p>
+    <h3>Refinement Plan</h3>
+    <h4>Proposed Changes</h4>
+    <p>This animation has a few sections where it stutters or lacks proper momentum. I plan to rework this into an animated projectile that hits a wall and bounces onto the ground.</p>
+    <h4>Skills Showcased</h4>
+    <ul>
+      <li>3D Animation</li>
+      <li>Physics</li>
+      <li>Graphic Design</li>
+    </ul>
+  </div> <!-- end ball -->
+  <hr>
+  <div class="engineer-segment" id="dart">
+    <img src="src/dartBone.jpg">
+    <h2>Dart</h2>
+    <h3>3D Modeling and Animation</h3>
+    <p>This artifact began originally as a study into animation in Autodesk Maya. With that being said, I have slowly attempted to convert over to a completely free workflow, so I have modeled my new projectile in Blender. This new projectile is based off of a foam dart (commonly found in &copy; Nerf toys).</p>
+    <video class="rounded" width="720" controls>
+      <source src="src/dartsWindow.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+    <p>I have created realistic physics on these models within Unreal Engine 4, including a randomized stick function on the window for the darts.</p>
+      <img src="src/darts.gif" class="rounded" width="720">
+    <p>I also created a system stress test out of the darts to see how many a computer could simulate. This was more for my own interest after taking the time to create the dart and the physics, but I thought it was interesting, nonetheless.</p>
+    <p>I investigated skeletal setups in 3D modeling software along with Unreal's animation features. It is still not complete, but I am trying to programmatically animate the darts based off of impact angle.</p>
+    <p>Here is a comedic video of a bone setup test in Blender.</p>
+    <video class="rounded" width="720" controls>
+      <source src="src/dartBone.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+  </div> <!-- end dart -->
+  <hr>
+  <div class="engineer-segment" id="town">
+    <img src="src/town.jpg">
+    <h2>Town</h2>
+    <h3>Web Development/UI</h3>
+    <p class="italic"><a href="https://arron.app/OldData/town/index.html">Link to Full Site</a></p>
+    <h4>Original Course/Origin</h4>
+    <p>Culmination of a few different web development courses at both Southern New Hampshire University and Slippery Rock University</p>
+    <h4>Description</h4>
+    <p>TOWN is a website that was designed as an advertisement project at SNHU. It was a project set up to show off a collection of both web development and graphic design skills that were gained through a variety of classes.</p>
+    <h4>Tools Used</h4>
+    <p>SRU primarily used Adobe Dreamweaver, Photoshop, and Illustrator. SNHU leaved this open to student selection, so I utilized Atom as my IDE paired with Photoshop/Illustrator for all graphics. Krita and GIMP were also used to try out a fully free workflow.</p>
+    <h4>Skills to Highlight</h4>
+    <p>There are two categories of skills that I hope to showcase with this project: programming and design.</p>
+    <p>I hope to show off programming skills through my HTML/CSS/JS used in the website itself. As for design skills, I hope to create an intuitive and appealing site that showcases both my understanding of design and UI elements.</p>
+
+    <p>The original website serves as a basis of the skills utilized to create this portfolio website. The TOWN website itself will not be reworked, but the methods and techniques learned during its creation will be the building blocks of this portfolio.</p>
+    <h4>Skills Showcased</h4>
+    <ul>
+      <li>Graphic Interface Design</li>
+      <li>Front-End Web Development</li>
+      <li>Server Set Up/Management</li>
+      <li>AWS Management</li>
+    </ul>
+  </div><!-- END town -->
+  <hr>
+  <div class="engineer-segment" id="audio">
+    <h2>Child's Play Theme/Sensory Percussion</h2>
+    <h3 class="italic remVertMargins">Sound Design</h3>
+    <h2>Child's Play Theme</h2>
+    <h4>Original</h4>
+    <audio controls>
+      <source src="src/childsPlayMain.wav" type="audio/wav">
+      Your browser does not support this audio element.
+    </audio>
+    <p>The original Child's Play Theme was part of a group assignment in a horror game. It was designed as main theme/background song for the game to give the game an on-edge yet childlike feeling.</p>
+    <h4>Revision</h4>
+    <audio controls>
+      <source src="src/childsPlayWeek2.wav" type="audio/wav">
+      Your browser does not support this audio element.
+    </audio>
+    <p>The revised version of Child's Play Theme was a project that was worked on throughout a two-week span for my capstone course at SNHU. The goal was to create a rhythmically more complex song with the same feeling as the original.</p>
+    <h2>Sensory Percussion Track</h2>
+    <audio controls>
+      <source src="src/firstSPTrack.wav" type="audio/wav">
+      Your browser does not support this audio element.
+    </audio>
+    <p>The Untitled Sensory Percussion Track was a personal study with new equipment that translates drum strokes into MIDI notes. Child's Play Theme was part of a team project in GAM 305. The entire track was recorded using a single snare drum.</p>
+    <h4>Tools Used</h4>
+    <ul>
+      <li>Unreal Engine 4</li>
+      <li>Arturia Link</li>
+      <li>Ableton Live Lite</li>
+      <li>Sensory Percussion</li>
+    </ul>
+    <h4>Main Skills Showcased</h4>
+    <ul>
+      <li>Audio Mixing</li>
+      <li>Chord Progression</li>
+      <li>Rhythmic Percussion</li>
+      <li>Sound Stage Development</li>
+    </ul>
+    <hr>
+  </div> <!-- END audio -->
+</body>
+</html>
